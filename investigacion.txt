@@ -4,10 +4,9 @@ aporte Dev A:
 Gestión de Historial Completo: Registra cada cambio realizado en el código fuente, permitiendo revertir a versiones anteriores si algo falla.
 Ramificación y Fusión (Branching & Merging): Permite a los desarrolladores trabajar en ramas aisladas para crear nuevas funciones sin afectar el código principal, fusionándolas de forma segura después.
 Trazabilidad: Identifica exactamente quién hizo qué cambio, cuándo y por qué (a través de los mensajes de commit).
-2.	Ansible (Gestión de Configuración de Infraestructura)
-Automatización sin Agentes (Agentless): No requiere instalar software de administración en los servidores cliente; se conecta de forma segura mediante SSH o WinRM.
-Playbooks (Infraestructura como Código): Permite definir el estado deseado del entorno de software en archivos de texto simples (YAML), asegurando que todos los servidores estén configurados exactamente igual.
-Idempotencia: Garantiza que aplicar la misma configuración varias veces no altere el sistema si ya está en el estado correcto, evitando errores de duplicación.
+2.	Puppet (Gestión de Configuración Basada en Modelos)
+Funcionalidad Principal: Utiliza un enfoque basado en "agentes" instalados en los servidores que verifican constantemente si el sistema operativo y el software cumplen con el modelo de configuración establecido por el administrador.
+Ventaja Clave: Detección y corrección de desviaciones (Drift Detection). Si un usuario modifica manualmente un archivo de configuración en un servidor, Puppet lo detecta automáticamente y lo revierte al estado correcto de inmediato.
 3.	Jira (Control de Cambios y Gobernanza)
 Seguimiento de Elementos de Configuración (CI): Registra y vincula los requisitos, tareas, errores y cambios de código a lo largo de todo el ciclo de vida.
 Flujos de Trabajo de Aprobación (Workflows): Automatiza el proceso de revisión. Un cambio no pasa a producción sin pasar por las auditorías y aprobaciones requeridas.
