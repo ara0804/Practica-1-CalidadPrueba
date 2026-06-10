@@ -1,17 +1,3 @@
-Investigacion
-aporte Dev A: 
-1.	Git (Control de Versiones Distribuido)
-Gestión de Historial Completo: Registra cada cambio realizado en el código fuente, permitiendo revertir a versiones anteriores si algo falla.
-Ramificación y Fusión (Branching & Merging): Permite a los desarrolladores trabajar en ramas aisladas para crear nuevas funciones sin afectar el código principal, fusionándolas de forma segura después.
-Trazabilidad: Identifica exactamente quién hizo qué cambio, cuándo y por qué (a través de los mensajes de commit).
-2.	Puppet (Gestión de Configuración Basada en Modelos)
-Funcionalidad Principal: Utiliza un enfoque basado en "agentes" instalados en los servidores que verifican constantemente si el sistema operativo y el software cumplen con el modelo de configuración establecido por el administrador.
-Ventaja Clave: Detección y corrección de desviaciones (Drift Detection). Si un usuario modifica manualmente un archivo de configuración en un servidor, Puppet lo detecta automáticamente y lo revierte al estado correcto de inmediato.
-3.	Jira (Control de Cambios y Gobernanza)
-Seguimiento de Elementos de Configuración (CI): Registra y vincula los requisitos, tareas, errores y cambios de código a lo largo de todo el ciclo de vida.
-Flujos de Trabajo de Aprobación (Workflows): Automatiza el proceso de revisión. Un cambio no pasa a producción sin pasar por las auditorías y aprobaciones requeridas.
-Auditoría y Reportes: Genera un rastro de cumplimiento (compliance) ideal para normativas de calidad, mostrando el ciclo de vida completo de una solicitud de cambio.
-
 Aporte Dev B
 Herramientas de Administración de la Configuración del Software (ACS) y su Impacto
 1. Análisis Exhaustivo de Herramientas ACS
